@@ -51,6 +51,11 @@ header nav ul li a:hover {
   width: 100%;
 }
 
+.conteudo-antonio h2{
+  text-align: center;
+  
+}
+
 /* Carlos coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
 .conteudo-carlos footer {
   border-top: 3px solid black;
