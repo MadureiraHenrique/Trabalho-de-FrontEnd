@@ -1,0 +1,129 @@
+/* Contéudo da página principal */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 auto;
+}
+
+header {
+  border-bottom: 3px solid black;
+  text-shadow: 5px 2px 5px black;
+  background-color: #68584f;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+header nav {
+  text-shadow: 1px 1px 5px black;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+
+header nav ul li {
+  background-color: #68584f;
+  display: inline;
+  padding: 25px;
+}
+
+header nav ul li a {
+  background-color: #f3e3d3;
+  text-decoration: none;
+  border-radius: 10px;
+  color: black;
+  padding: 15px;
+}
+
+header nav ul li a:hover {
+  transition: 1s;
+  color: red;
+}
+
+/* Os Conteúdo de vocês: */
+/* Antônio coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
+.conteudo-antonio footer {
+  border-top: 3px solid black;
+  background-color: #68584f;
+  text-align: center;
+  position: fixed;
+  height: 60px;
+  bottom: 0px;
+  width: 100%;
+}
+
+/* Carlos coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
+.conteudo-carlos footer {
+  border-top: 3px solid black;
+  background-color: #68584f;
+  text-align: center;
+  position: fixed;
+  height: 60px;
+  bottom: 0px;
+  width: 100%;
+}
+
+/* Elisa coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
+.conteudo-elisa footer {
+  border-top: 3px solid black;
+  background-color: #68584f;
+  text-align: center;
+  position: fixed;
+  height: 60px;
+  bottom: 0px;
+  width: 100%;
+}
+
+/* Glauber coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
+.conteudo-glauber footer {
+  border-top: 3px solid black;
+  background-color: #68584f;
+  text-align: center;
+  position: fixed;
+  height: 60px;
+  bottom: 0px;
+  width: 100%;
+}
+
+/* Rafael coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
+.conteudo-rafael footer {
+  border-top: 3px solid black;
+  background-color: #68584f;
+  text-align: center;
+  position: fixed;
+  height: 60px;
+  bottom: 0px;
+  width: 100%;
+}
+
+/* Reynan coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
+.conteudo-reynan footer {
+  border-top: 3px solid black;
+  background-color: #68584f;
+  text-align: center;
+  position: fixed;
+  height: 60px;
+  bottom: 0px;
+  width: 100%;
+}
+
+/* Robson coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
+.conteudo-robson footer {
+  border-top: 3px solid black;
+  background-color: #68584f;
+  text-align: center;
+  position: fixed;
+  height: 60px;
+  bottom: 0px;
+  width: 100%;
+}
+
+/* Victoria coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
+.conteudo-victoria footer {
+  border-top: 3px solid black;
+  background-color: #68584f;
+  text-align: center;
+  position: fixed;
+  height: 60px;
+  bottom: 0px;
+  width: 100%;
+}
