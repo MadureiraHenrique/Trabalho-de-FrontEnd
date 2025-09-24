@@ -4,7 +4,7 @@ body {
   margin: 0 auto;
 }
 
-header {
+.conteudo-principal-cabecalho {
   border-bottom: 3px solid black;
   text-shadow: 5px 2px 5px black;
   background-color: #68584f;
@@ -13,20 +13,20 @@ header {
   padding: 20px;
 }
 
-header nav {
+.conteudo-principal-cabecalho nav {
   text-shadow: 1px 1px 5px black;
   text-align: center;
   font-weight: bold;
   color: black;
 }
 
-header nav ul li {
+.conteudo-principal-cabecalho nav ul li {
   background-color: #68584f;
   display: inline;
   padding: 25px;
 }
 
-header nav ul li a {
+.conteudo-principal-cabecalho nav ul li a {
   background-color: #f3e3d3;
   text-decoration: none;
   border-radius: 10px;
@@ -34,7 +34,7 @@ header nav ul li a {
   padding: 15px;
 }
 
-header nav ul li a:hover {
+.conteudo-principal-cabecalho nav ul li a:hover {
   transition: 1s;
   color: red;
 }
@@ -69,14 +69,81 @@ header nav ul li a:hover {
 }
 
 /* Elisa coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
-.conteudo-elisa footer {
-  border-top: 3px solid black;
-  background-color: #68584f;
+.conteudo-elisa #rodape-de-baixo {
+  background-color: #cb1064;
+  border-radius: 20px;
   text-align: center;
-  position: fixed;
-  height: 60px;
-  bottom: 0px;
-  width: 100%;
+  padding: 20px;
+}
+
+.conteudo-elisa {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.conteudo-elisa h1 {
+  text-align: center;
+}
+
+.bloco {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.conteudo-elisa h2 {
+  margin-top: 0;
+}
+
+/* wireframe */
+.wireframe .caixa {
+  border: 2px dashed #cb1064;
+  padding: 15px;
+  margin: 5px 0;
+  text-align: center;
+}
+
+/* protótipo */
+.prototipo {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.prototipo header,
+.prototipo footer {
+  background: #ffd4e7;
+  padding: 10px;
+  color: black;
+  text-align: center;
+}
+
+.prototipo main {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.prototipo button {
+  padding: 8px 12px;
+  background: #cb1064;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+/* manual */
+#manual {
+  background: #ffd4e7;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+#explicacao {
+  font-size: 14px;
+  margin-top: 10px;
 }
 
 /* Glauber coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
@@ -88,6 +155,27 @@ header nav ul li a:hover {
   height: 60px;
   bottom: 0px;
   width: 100%;
+}
+
+.conteudo-glauber #stardew {
+  width: 500px;
+}
+
+.conteudo-glauber #genshin {
+  width: 500px;
+}
+
+.conteudo-glauber #hollow {
+  width: 530px;
+  margin-left: -15px;
+}
+
+.conteudo-glauber ul li{
+  margin-top: 15px;
+}
+
+.conteudo-glauber .celular{
+  width: 300px;
 }
 
 /* Rafael coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
@@ -124,12 +212,111 @@ header nav ul li a:hover {
 }
 
 /* Victoria coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
-.conteudo-victoria footer {
+.conteudo-victoria {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+#footer-victoria {
   border-top: 3px solid black;
   background-color: #68584f;
   text-align: center;
   position: fixed;
   height: 60px;
   bottom: 0px;
-  width: 100%;
+  width: 100%;  
+}
+
+.conteudo-victoria h2 {
+  margin-top: 40px;
+  color: #333;
+}
+
+/* GUI */
+.gui {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 220px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.gui button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  background: #4CAF50;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.gui button:last-child {
+  background: #f44336;
+}
+
+/* CLI */
+.cli {
+  background: black;
+  color: #00ff00;
+  font-family: monospace;
+  padding: 15px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+/* VUI */
+.vui {
+  border: 2px dashed #666;
+  padding: 20px;
+  width: 250px;
+  font-family: sans-serif;
+  text-align: center;
+  background: #fff;
+  border-radius: 8px;
+}
+
+/* Tangível */
+.tangible {
+  display: flex;
+  gap: 10px;
+  font-family: sans-serif;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  width: max-content;
+}
+.tangible .obj {
+  padding: 10px;
+  background: #ddd;
+  border-radius: 8px;
+}
+
+/* NUI */
+.nui {
+  border: 2px solid #007bff;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  font-family: sans-serif;
+  background: #e9f3ff;
+  border-radius: 8px;
+}
+
+/* BCI */
+.bci {
+  border: 2px solid #6a1b9a;
+  padding: 15px;
+  width: 280px;
+  font-family: sans-serif;
+  background: #f3e5f5;
+  border-radius: 8px;
+}
+.bci .bar {
+  margin-top: 10px;
+  height: 15px;
+  width: 80%;
+  background: linear-gradient(90deg, #6a1b9a, #ba68c8);
+  border-radius: 5px;
 }
