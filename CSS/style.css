@@ -215,6 +215,30 @@ body {
   width: 100%;
 }
 
+.conteudo-reynan #imagemIntroducao {
+  
+}
+
+.conteudo-reynan .imagemObjetivos {
+  display: flex;
+}
+
+.conteudo-reynan .imagemObjetivos img {
+  width: 30%;
+}
+
+.conteudo-reynan #imagemPrincipios {
+  width: 35%;
+}
+
+.conteudo-reynan #imagemSustentacao {
+  width: 50%;
+}
+
+.conteudo-reynan figure img {
+  width: 50%;
+}
+
 /* Robson coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
 .conteudo-robson footer {
   border-top: 3px solid black;
