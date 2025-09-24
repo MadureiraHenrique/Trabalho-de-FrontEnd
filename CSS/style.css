@@ -53,8 +53,23 @@ body {
 
 .conteudo-antonio h2 {
   text-align: center;
-  image-rendering: auto;
   font-family: Verdana;
+}
+
+.conteudo-antonio img {
+  position: absolute;
+  max-height: 305px;
+  max-width: 420px;
+}
+
+.conteudo-antonio #imagem1 {
+  left: 900px;
+  top: 300px;
+}
+
+.conteudo-antonio #imagem2 {
+  left: 900px;
+  top: 700px;
 }
 
 /* Carlos coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
