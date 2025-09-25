@@ -255,7 +255,7 @@ body {
 }
 
 /* Exemplos visuais */
-.exemplo-cli {
+.conteudo-robson .exemplo-cli {
   background: #111;
   color: #0f0;
   padding: 10px;
@@ -263,19 +263,20 @@ body {
   font-family: monospace;
 }
 
-.exemplo-gui {
+.conteudo-robson .exemplo-gui {
   border: 1px solid #ccc;
   padding: 10px;
   margin: 10px 0;
   width: 200px;
   background: #f9f9f9;
 }
-.exemplo-gui button {
+
+.conteudo-robson .exemplo-gui button {
   padding: 5px 10px;
   margin: 5px;
 }
 
-.exemplo-nui {
+.conteudo-robson .exemplo-nui {
   border: 1px solid #ccc;
   padding: 10px;
   margin: 10px 0;
@@ -283,7 +284,7 @@ body {
   background: #eef;
 }
 
-.exemplo-tui {
+.conteudo-robson .exemplo-tui {
   border: 1px solid #ccc;
   padding: 10px;
   margin: 10px 0;
@@ -291,7 +292,7 @@ body {
   background: #ffe;
 }
 
-.exemplo-conversacional {
+.conteudo-robson .exemplo-conversacional {
   border: 1px solid #ccc;
   padding: 10px;
   margin: 10px 0;
@@ -409,3 +410,4 @@ body {
   background: linear-gradient(90deg, #6a1b9a, #ba68c8);
   border-radius: 5px;
 }
+
