@@ -248,7 +248,58 @@ body {
   height: 60px;
   bottom: 0px;
   width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+/* Exemplos visuais */
+.conteudo-robson .exemplo-cli {
+  background: #111;
+  color: #0f0;
+  padding: 10px;
+  margin: 10px 0;
+  font-family: monospace;
+}
+
+.conteudo-robson .exemplo-gui {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  width: 200px;
+  background: #f9f9f9;
+}
+
+.conteudo-robson .exemplo-gui button {
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.conteudo-robson .exemplo-nui {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  width: 250px;
+  background: #eef;
+}
+
+.conteudo-robson .exemplo-tui {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  width: 200px;
+  background: #ffe;
+}
+
+.conteudo-robson .exemplo-conversacional {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  width: 280px;
+  background: #f1f1f1;
+}
+
 
 /* Victoria coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
 .conteudo-victoria {
@@ -359,3 +410,4 @@ body {
   background: linear-gradient(90deg, #6a1b9a, #ba68c8);
   border-radius: 5px;
 }
+
