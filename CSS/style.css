@@ -1,7 +1,8 @@
 /* Contéudo da página principal */
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+  margin: 0;
 }
 
 .conteudo-principal-cabecalho {
@@ -9,6 +10,7 @@ body {
   text-shadow: 5px 2px 5px black;
   background-color: #68584f;
   text-align: center;
+  line-height: 1.8;
   color: white;
   padding: 20px;
 }
@@ -21,12 +23,13 @@ body {
 }
 
 .conteudo-principal-cabecalho nav ul li {
-  background-color: #68584f;
   display: inline;
   padding: 25px;
 }
 
 .conteudo-principal-cabecalho nav ul li a {
+  transition: background-color 0.3s ease;
+  transition: padding 0.3s ease;
   background-color: #f3e3d3;
   text-decoration: none;
   border-radius: 10px;
@@ -34,12 +37,23 @@ body {
   padding: 15px;
 }
 
-.conteudo-principal-cabecalho nav ul li a:hover {
-  transition: 1s;
-  color: red;
+.conteudo-principal-cabecalho nav ul li #homem:hover {
+  background-color: rgb(60, 0, 255);
+  color: #007bff;
+  /* eu não sei qual cor fica melhor :V (H.Romeu Pinto) */
+  color: white;
+  padding: 20px;
 }
 
-/* Os Conteúdo de vocês: */
+.conteudo-principal-cabecalho nav ul li #mulher:hover {
+  background-color: #cb1064;
+  color: rgb(255, 0, 179);
+  /* eu não sei qual cor fica melhor :V (H.Romeu Pinto) */
+  color: white;
+  padding: 20px;
+}
+
+/* Os estilos de vocês: */
 /* Antônio coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
 .conteudo-antonio footer {
   border-top: 3px solid black;
@@ -52,8 +66,14 @@ body {
 }
 
 .conteudo-antonio h2 {
-  text-align: center;
   font-family: Verdana;
+  text-align: center;
+}
+
+.conteudo-antonio #titulos {
+  position: relative;
+  font-size: 30px;
+  left: 20px;
 }
 
 .conteudo-antonio img {
@@ -64,22 +84,187 @@ body {
 
 .conteudo-antonio #imagem1 {
   left: 900px;
-  top: 300px;
+  top: 250px;
 }
 
 .conteudo-antonio #imagem2 {
   left: 900px;
-  top: 700px;
+  top: 620px;
 }
 
-/* Carlos coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
+/* Carlos (Lider) coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
+.conteudo-carlos {
+  background-image: linear-gradient(white, black);
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  color: white;
+  margin: 0;
+}
+
+.conteudo-carlos .conteudo-detalhe {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: black;
+}
+
+.conteudo-carlos #detalhe-chave {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.conteudo-carlos .formulario-persona {
+  background-image: linear-gradient(gray, white);
+  border: 10px solid black;
+  flex-direction: column;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px;
+  display: flex;
+  padding: 50px;
+  width: 90%;
+}
+
+
+.conteudo-carlos .formulario-persona .Objetivos .resposta {
+  line-height: 70px;
+  text-align: left;
+  margin: 10px;
+}
+
+.conteudo-carlos .formulario-persona .Dores .resposta {
+  line-height: 70px;
+  text-align: left;
+  margin: 10px;
+}
+
+.conteudo-carlos .formulario-persona ol {
+  display: inline-block;
+}
+
+.conteudo-carlos .formulario-persona .resposta {
+  background-color: black;
+  border-radius: 20px;
+  padding: 15px 40px;
+  color: white;
+}
+
+.conteudo-carlos .formulario-persona h2 {
+  text-align: left;
+}
+
+.conteudo-carlos table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.conteudo-carlos #detalhe-chave th, td {
+  border: 1px solid #ddd;
+  padding: 200px;
+}
+
+.conteudo-carlos #detalhe-chave th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.conteudo-carlos #detalhe-chave tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+.conteudo-carlos .conteudo-detalhe img {
+  border: 30px solid black;
+  border-radius: 10px;
+}
+
+.conteudo-carlos .container {
+  font-family: "Times New Roman", Times, serif;
+  box-shadow: 0px 8px 20px black;
+  background-color: #fff;
+  margin-bottom: 100px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 1200px;
+  list-style: none;
+  margin-top: 40px;
+  padding: 80px;
+  color: #333;
+  width: 60%;
+}
+
+.conteudo-carlos .container h2 {
+  margin-top: 50px;
+}
+
+.conteudo-carlos #titulo {
+  text-shadow: 4px 4px 5px;
+  margin-top: 0px;
+  font-size: 5rem;
+}
+
+.conteudo-carlos .item-conceito h2 {
+  font-size: 50px;
+}
+
+.conteudo-carlos .container button {
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 40px;
+}
+
+.conteudo-carlos #saiba-mais {
+  transition: transform 0.3s ease;
+  font-weight: bold;
+  min-width: 150px;
+  cursor: pointer;
+  color: #333;
+}
+
+.conteudo-carlos #saiba-mais:hover {
+  transform: translateY(-4px);
+  background-color: #333;
+  color: white;
+}
+
+#botao-que-leva-pra-cima {
+  transition: transform 0.3s ease;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: fixed;
+  display: flex;
+  opacity: 50%;
+  bottom: 80px;
+  right: 40px;
+  z-index: 5;
+}
+
+#botao-que-leva-pra-cima:hover {
+  transform: translateY(-10px);
+  opacity: 100%;
+}
+
+#botao-que-leva-pra-cima img {
+  height: 80px;
+  width: 80px;
+}
+
 .conteudo-carlos footer {
   border-top: 3px solid black;
   background-color: #68584f;
   text-align: center;
-  position: fixed;
-  height: 60px;
-  bottom: 0px;
+  font-size: 0.9rem;
+  margin-top: auto;
   width: 100%;
 }
 
@@ -93,8 +278,8 @@ body {
 
 .conteudo-elisa {
   font-family: Arial, sans-serif;
-  margin: 20px;
   background: #f4f4f4;
+  margin: 20px;
   color: #333;
 }
 
@@ -102,12 +287,12 @@ body {
   text-align: center;
 }
 
-.bloco {
+.conteudo-elisa .bloco {
   background: #fff;
   border: 1px solid #ccc;
-  padding: 15px;
   margin-bottom: 20px;
   border-radius: 6px;
+  padding: 15px;
 }
 
 .conteudo-elisa h2 {
@@ -115,48 +300,48 @@ body {
 }
 
 /* wireframe */
-.wireframe .caixa {
+.conteudo-elisa .wireframe .caixa {
   border: 2px dashed #cb1064;
+  text-align: center;
   padding: 15px;
   margin: 5px 0;
-  text-align: center;
 }
 
 /* protótipo */
-.prototipo {
+.conteudo-elisa .prototipo {
   border: 1px solid #ddd;
   padding: 10px;
 }
 
-.prototipo header,
+.conteudo-elisa .prototipo header,
 .prototipo footer {
   background: #ffd4e7;
+  text-align: center;
   padding: 10px;
   color: black;
-  text-align: center;
 }
 
-.prototipo main {
+.conteudo-elisa .prototipo main {
   text-align: center;
   margin: 15px 0;
 }
 
-.prototipo button {
-  padding: 8px 12px;
+.conteudo-elisa .prototipo button {
   background: #cb1064;
+  border-radius: 4px;
+  padding: 8px 12px;
   color: #fff;
   border: none;
-  border-radius: 4px;
 }
 
 /* manual */
-#manual {
-  background: #ffd4e7;
+.conteudo-elisa #manual {
   border: 1px solid #ddd;
+  background: #ffd4e7;
   padding: 10px;
 }
 
-#explicacao {
+.conteudo-elisa #explicacao {
   font-size: 14px;
   margin-top: 10px;
 }
@@ -185,11 +370,11 @@ body {
   margin-left: -15px;
 }
 
-.conteudo-glauber ul li{
+.conteudo-glauber ul li {
   margin-top: 15px;
 }
 
-.conteudo-glauber .celular{
+.conteudo-glauber .celulares img {
   width: 300px;
 }
 
@@ -213,10 +398,6 @@ body {
   height: 60px;
   bottom: 0px;
   width: 100%;
-}
-
-.conteudo-reynan #imagemIntroducao {
-  
 }
 
 .conteudo-reynan .imagemObjetivos {
@@ -243,32 +424,32 @@ body {
 .conteudo-robson footer {
   border-top: 3px solid black;
   background-color: #68584f;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   position: fixed;
+  color: white;
+  display: flex;
   height: 60px;
   bottom: 0px;
   width: 100%;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* Exemplos visuais */
 .conteudo-robson .exemplo-cli {
-  background: #111;
-  color: #0f0;
-  padding: 10px;
-  margin: 10px 0;
   font-family: monospace;
+  background: #111;
+  margin: 10px 0;
+  padding: 10px;
+  color: #0f0;
 }
 
 .conteudo-robson .exemplo-gui {
   border: 1px solid #ccc;
-  padding: 10px;
-  margin: 10px 0;
-  width: 200px;
   background: #f9f9f9;
+  margin: 10px 0;
+  padding: 10px;
+  width: 200px;
 }
 
 .conteudo-robson .exemplo-gui button {
@@ -278,28 +459,27 @@ body {
 
 .conteudo-robson .exemplo-nui {
   border: 1px solid #ccc;
-  padding: 10px;
-  margin: 10px 0;
-  width: 250px;
   background: #eef;
+  margin: 10px 0;
+  padding: 10px;
+  width: 250px;
 }
 
 .conteudo-robson .exemplo-tui {
   border: 1px solid #ccc;
-  padding: 10px;
-  margin: 10px 0;
-  width: 200px;
   background: #ffe;
+  margin: 10px 0;
+  padding: 10px;
+  width: 200px;
 }
 
 .conteudo-robson .exemplo-conversacional {
   border: 1px solid #ccc;
-  padding: 10px;
-  margin: 10px 0;
-  width: 280px;
   background: #f1f1f1;
+  margin: 10px 0;
+  padding: 10px;
+  width: 280px;
 }
-
 
 /* Victoria coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
 .conteudo-victoria {
@@ -315,7 +495,7 @@ body {
   position: fixed;
   height: 60px;
   bottom: 0px;
-  width: 100%;  
+  width: 100%;
 }
 
 .conteudo-victoria h2 {
@@ -324,90 +504,89 @@ body {
 }
 
 /* GUI */
-.gui {
+.conteudo-victoria .gui {
   border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
   padding: 15px;
   width: 220px;
-  background: #fff;
-  border-radius: 8px;
 }
 
-.gui button {
-  margin: 5px;
-  padding: 8px 12px;
-  border: none;
-  background: #4CAF50;
-  color: white;
+.conteudo-victoria .gui button {
+  background: #4caf50;
   border-radius: 4px;
+  padding: 8px 12px;
   cursor: pointer;
+  color: white;
+  border: none;
+  margin: 5px;
 }
 
-.gui button:last-child {
+.conteudo-victoria .gui button:last-child {
   background: #f44336;
 }
 
 /* CLI */
-.cli {
-  background: black;
-  color: #00ff00;
+.conteudo-victoria .cli {
   font-family: monospace;
+  background: black;
+  border-radius: 5px;
+  color: #00ff00;
   padding: 15px;
   width: 300px;
-  border-radius: 5px;
 }
 
 /* VUI */
-.vui {
+.conteudo-victoria .vui {
   border: 2px dashed #666;
-  padding: 20px;
-  width: 250px;
   font-family: sans-serif;
+  border-radius: 8px;
   text-align: center;
   background: #fff;
-  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
 }
 
 /* Tangível */
-.tangible {
-  display: flex;
-  gap: 10px;
+.conteudo-victoria .tangible {
   font-family: sans-serif;
+  border-radius: 8px;
   background: #fff;
-  padding: 15px;
-  border-radius: 8px;
   width: max-content;
+  display: flex;
+  padding: 15px;
+  gap: 10px;
 }
-.tangible .obj {
-  padding: 10px;
-  background: #ddd;
+.conteudo-victoria .tangible .obj {
   border-radius: 8px;
+  background: #ddd;
+  padding: 10px;
 }
 
 /* NUI */
-.nui {
+.conteudo-victoria .nui {
   border: 2px solid #007bff;
-  padding: 15px;
-  width: 250px;
-  text-align: center;
   font-family: sans-serif;
   background: #e9f3ff;
   border-radius: 8px;
+  text-align: center;
+  padding: 15px;
+  width: 250px;
 }
 
 /* BCI */
-.bci {
+.conteudo-victoria .bci {
   border: 2px solid #6a1b9a;
-  padding: 15px;
-  width: 280px;
   font-family: sans-serif;
   background: #f3e5f5;
   border-radius: 8px;
+  padding: 15px;
+  width: 280px;
 }
-.bci .bar {
+.conteudo-victoria .bci .bar {
+  background: linear-gradient(90deg, #6a1b9a, #ba68c8);
+  border-radius: 5px;
   margin-top: 10px;
   height: 15px;
   width: 80%;
-  background: linear-gradient(90deg, #6a1b9a, #ba68c8);
-  border-radius: 5px;
 }
-
