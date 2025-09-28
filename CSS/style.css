@@ -54,8 +54,8 @@ body {
 }
 
 /* Os estilos de vocês: */
-/* Antônio coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
-.conteudo-antonio footer {
+/* Glauber coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
+.conteudo-glauber footer {
   border-top: 3px solid black;
   background-color: #68584f;
   text-align: center;
@@ -65,31 +65,171 @@ body {
   width: 100%;
 }
 
-.conteudo-antonio h2 {
-  font-family: Verdana;
+.conteudo-glauber #stardew {
+  width: 500px;
+}
+
+.conteudo-glauber #genshin {
+  width: 500px;
+}
+
+.conteudo-glauber #hollow {
+  width: 530px;
+  margin-left: -15px;
+}
+
+.conteudo-glauber ul li {
+  margin-top: 15px;
+}
+
+.conteudo-glauber .celulares img {
+  width: 300px;
+}
+
+/* Victoria coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
+.conteudo-victoria {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.conteudo-victoria .container {
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  background: #fff;
+  max-width: 500px;
+  padding: 30px;
+  margin: auto;
+}
+
+.conteudo-victoria h1 {
+  margin-bottom: 20px;
   text-align: center;
+  color: #4CAF50;
 }
 
-.conteudo-antonio #titulos {
-  position: relative;
-  font-size: 30px;
-  left: 20px;
+.conteudo-victoria p {
+  margin-bottom: 15px;
+  line-height: 1.5;
 }
 
-.conteudo-antonio img {
-  position: absolute;
-  max-height: 305px;
-  max-width: 420px;
+/* Estilo dos inputs (Affordance: eles já parecem campos de digitação) */
+.conteudo-victoria label {
+  font-weight: bold;
+  margin-top: 15px;
+  display: block;
 }
 
-.conteudo-antonio #imagem1 {
-  left: 900px;
-  top: 250px;
+.conteudo-victoria input {
+  transition: border-color 0.3s;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 14px;
+  padding: 10px;
+  width: 90%;
 }
 
-.conteudo-antonio #imagem2 {
-  left: 900px;
-  top: 620px;
+/* Affordance reforçada: quando o usuário foca no campo */
+.conteudo-victoria input:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* Estilo do botão (Affordance: formato e cor convidam a clicar) */
+.conteudo-victoria button {
+  transition: background-color 0.3s, transform 0.1s;
+  background-color: #4CAF50;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  padding: 12px;
+  border: none;
+  width: 90%;
+}
+
+/* Interação: resposta visual ao passar o mouse */
+.conteudo-victoria button:hover {
+  background-color: #45a049;
+}
+
+/* Interação: efeito de clique */
+.conteudo-victoria button:active {
+  background-color: #3e8e41;
+  transform: scale(0.95);
+}
+
+.conteudo-victoria footer {
+  border-top: 3px solid black;
+  background-color: #68584f;
+  text-align: center;
+  position: fixed;
+  height: 60px;
+  bottom: 0px;
+  width: 100%;
+}
+
+/* Robson coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
+.conteudo-robson footer {
+  border-top: 3px solid black;
+  background-color: #68584f;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  color: white;
+  display: flex;
+  height: 60px;
+  bottom: 0px;
+  width: 100%;
+}
+
+/* Exemplos visuais */
+.conteudo-robson .exemplo-cli {
+  font-family: monospace;
+  background: #111;
+  margin: 10px 0;
+  padding: 10px;
+  color: #0f0;
+}
+
+.conteudo-robson .exemplo-gui {
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+  margin: 10px 0;
+  padding: 10px;
+  width: 200px;
+}
+
+.conteudo-robson .exemplo-gui button {
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.conteudo-robson .exemplo-nui {
+  border: 1px solid #ccc;
+  background: #eef;
+  margin: 10px 0;
+  padding: 10px;
+  width: 250px;
+}
+
+.conteudo-robson .exemplo-tui {
+  border: 1px solid #ccc;
+  background: #ffe;
+  margin: 10px 0;
+  padding: 10px;
+  width: 200px;
+}
+
+.conteudo-robson .exemplo-conversacional {
+  border: 1px solid #ccc;
+  background: #f1f1f1;
+  margin: 10px 0;
+  padding: 10px;
+  width: 280px;
 }
 
 /* Carlos (Lider) coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
@@ -268,6 +408,86 @@ body {
   width: 100%;
 }
 
+/* Antônio coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
+.conteudo-antonio footer {
+  border-top: 3px solid black;
+  background-color: #68584f;
+  text-align: center;
+  position: fixed;
+  height: 60px;
+  bottom: 0px;
+  width: 100%;
+}
+
+.conteudo-antonio h2 {
+  font-family: Verdana;
+  text-align: center;
+}
+
+.conteudo-antonio #titulos {
+  position: relative;
+  font-size: 30px;
+  left: 20px;
+}
+
+.conteudo-antonio img {
+  position: absolute;
+  max-height: 305px;
+  max-width: 420px;
+}
+
+.conteudo-antonio #imagem1 {
+  left: 900px;
+  top: 250px;
+}
+
+.conteudo-antonio #imagem2 {
+  left: 900px;
+  top: 620px;
+}
+
+/* Reynan coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
+.conteudo-reynan footer {
+  border-top: 3px solid black;
+  background-color: #68584f;
+  text-align: center;
+  position: fixed;
+  height: 60px;
+  bottom: 0px;
+  width: 100%;
+}
+
+.conteudo-reynan .imagemObjetivos {
+  display: flex;
+}
+
+.conteudo-reynan .imagemObjetivos img {
+  width: 30%;
+}
+
+.conteudo-reynan #imagemPrincipios {
+  width: 35%;
+}
+
+.conteudo-reynan #imagemSustentacao {
+  width: 50%;
+}
+
+.conteudo-reynan figure img {
+  width: 50%;
+}
+
+/* Rafael coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
+.conteudo-rafael footer {
+  border-top: 3px solid black;
+  background-color: #68584f;
+  text-align: center;
+  position: fixed;
+  height: 60px;
+  bottom: 0px;
+  width: 100%;
+}
+
 /* Elisa coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
 .conteudo-elisa #rodape-de-baixo {
   background-color: #cb1064;
@@ -344,249 +564,4 @@ body {
 .conteudo-elisa #explicacao {
   font-size: 14px;
   margin-top: 10px;
-}
-
-/* Glauber coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
-.conteudo-glauber footer {
-  border-top: 3px solid black;
-  background-color: #68584f;
-  text-align: center;
-  position: fixed;
-  height: 60px;
-  bottom: 0px;
-  width: 100%;
-}
-
-.conteudo-glauber #stardew {
-  width: 500px;
-}
-
-.conteudo-glauber #genshin {
-  width: 500px;
-}
-
-.conteudo-glauber #hollow {
-  width: 530px;
-  margin-left: -15px;
-}
-
-.conteudo-glauber ul li {
-  margin-top: 15px;
-}
-
-.conteudo-glauber .celulares img {
-  width: 300px;
-}
-
-/* Rafael coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
-.conteudo-rafael footer {
-  border-top: 3px solid black;
-  background-color: #68584f;
-  text-align: center;
-  position: fixed;
-  height: 60px;
-  bottom: 0px;
-  width: 100%;
-}
-
-/* Reynan coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
-.conteudo-reynan footer {
-  border-top: 3px solid black;
-  background-color: #68584f;
-  text-align: center;
-  position: fixed;
-  height: 60px;
-  bottom: 0px;
-  width: 100%;
-}
-
-.conteudo-reynan .imagemObjetivos {
-  display: flex;
-}
-
-.conteudo-reynan .imagemObjetivos img {
-  width: 30%;
-}
-
-.conteudo-reynan #imagemPrincipios {
-  width: 35%;
-}
-
-.conteudo-reynan #imagemSustentacao {
-  width: 50%;
-}
-
-.conteudo-reynan figure img {
-  width: 50%;
-}
-
-/* Robson coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
-.conteudo-robson footer {
-  border-top: 3px solid black;
-  background-color: #68584f;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  position: fixed;
-  color: white;
-  display: flex;
-  height: 60px;
-  bottom: 0px;
-  width: 100%;
-}
-
-/* Exemplos visuais */
-.conteudo-robson .exemplo-cli {
-  font-family: monospace;
-  background: #111;
-  margin: 10px 0;
-  padding: 10px;
-  color: #0f0;
-}
-
-.conteudo-robson .exemplo-gui {
-  border: 1px solid #ccc;
-  background: #f9f9f9;
-  margin: 10px 0;
-  padding: 10px;
-  width: 200px;
-}
-
-.conteudo-robson .exemplo-gui button {
-  padding: 5px 10px;
-  margin: 5px;
-}
-
-.conteudo-robson .exemplo-nui {
-  border: 1px solid #ccc;
-  background: #eef;
-  margin: 10px 0;
-  padding: 10px;
-  width: 250px;
-}
-
-.conteudo-robson .exemplo-tui {
-  border: 1px solid #ccc;
-  background: #ffe;
-  margin: 10px 0;
-  padding: 10px;
-  width: 200px;
-}
-
-.conteudo-robson .exemplo-conversacional {
-  border: 1px solid #ccc;
-  background: #f1f1f1;
-  margin: 10px 0;
-  padding: 10px;
-  width: 280px;
-}
-
-/* Victoria coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
-.conteudo-victoria {
-  font-family: Arial, sans-serif;
-  background: #f5f5f5;
-  padding: 20px;
-}
-
-#footer-victoria {
-  border-top: 3px solid black;
-  background-color: #68584f;
-  text-align: center;
-  position: fixed;
-  height: 60px;
-  bottom: 0px;
-  width: 100%;
-}
-
-.conteudo-victoria h2 {
-  margin-top: 40px;
-  color: #333;
-}
-
-/* GUI */
-.conteudo-victoria .gui {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  background: #fff;
-  padding: 15px;
-  width: 220px;
-}
-
-.conteudo-victoria .gui button {
-  background: #4caf50;
-  border-radius: 4px;
-  padding: 8px 12px;
-  cursor: pointer;
-  color: white;
-  border: none;
-  margin: 5px;
-}
-
-.conteudo-victoria .gui button:last-child {
-  background: #f44336;
-}
-
-/* CLI */
-.conteudo-victoria .cli {
-  font-family: monospace;
-  background: black;
-  border-radius: 5px;
-  color: #00ff00;
-  padding: 15px;
-  width: 300px;
-}
-
-/* VUI */
-.conteudo-victoria .vui {
-  border: 2px dashed #666;
-  font-family: sans-serif;
-  border-radius: 8px;
-  text-align: center;
-  background: #fff;
-  padding: 20px;
-  width: 250px;
-}
-
-/* Tangível */
-.conteudo-victoria .tangible {
-  font-family: sans-serif;
-  border-radius: 8px;
-  background: #fff;
-  width: max-content;
-  display: flex;
-  padding: 15px;
-  gap: 10px;
-}
-.conteudo-victoria .tangible .obj {
-  border-radius: 8px;
-  background: #ddd;
-  padding: 10px;
-}
-
-/* NUI */
-.conteudo-victoria .nui {
-  border: 2px solid #007bff;
-  font-family: sans-serif;
-  background: #e9f3ff;
-  border-radius: 8px;
-  text-align: center;
-  padding: 15px;
-  width: 250px;
-}
-
-/* BCI */
-.conteudo-victoria .bci {
-  border: 2px solid #6a1b9a;
-  font-family: sans-serif;
-  background: #f3e5f5;
-  border-radius: 8px;
-  padding: 15px;
-  width: 280px;
-}
-.conteudo-victoria .bci .bar {
-  background: linear-gradient(90deg, #6a1b9a, #ba68c8);
-  border-radius: 5px;
-  margin-top: 10px;
-  height: 15px;
-  width: 80%;
 }
