@@ -447,35 +447,89 @@ body {
 }
 
 /* Reynan coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
+
+/* Footer */
 .conteudo-reynan footer {
   border-top: 3px solid black;
   background-color: #68584f;
   text-align: center;
   position: fixed;
   height: 60px;
-  bottom: 0px;
+  bottom: 0;
   width: 100%;
 }
 
+/* Títulos h2 com barra à esquerda e espaço */
+.conteudo-reynan h2 {
+  border-left: 5px solid #68584f;
+  padding-left: 20px; 
+  border-width: 9px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  font-size: 1.5em;
+}
+
+/* Centralizando todas as imagens e adicionando sombra */
+.conteudo-reynan img {
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-radius: 5px;
+    justify-content: center;
+
+}
+
+/* Imagem de princípios com borda arredondada especial */
+.conteudo-reynan #imagemPrincipios {
+  border-radius: 60px;
+}
+
+.conteudo-reynan #imagemPrincipiosAI {
+  width: 40%;
+}
+
+/* Imagem de sustentação */
+.conteudo-reynan #imagemSustentacao,
+.conteudo-reynan #imagemSistema,
+.conteudo-reynan figure img {
+  width: 50%;
+}
+
+/* Container de imagens lado a lado */
 .conteudo-reynan .imagemObjetivos {
   display: flex;
+  gap: 20px; /* espaço entre imagens */
 }
 
 .conteudo-reynan .imagemObjetivos img {
   width: 30%;
 }
 
-.conteudo-reynan #imagemPrincipios {
-  width: 35%;
+/* Listas */
+.conteudo-reynan ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  line-height: 1.6;
 }
 
-.conteudo-reynan #imagemSustentacao {
-  width: 50%;
+/* Parágrafos */
+.conteudo-reynan p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  margin-left: 10px;
+
 }
 
-.conteudo-reynan figure img {
-  width: 50%;
+/* Figcaption */
+.conteudo-reynan figure figcaption {
+  text-align: center;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #555;
 }
+
 
 /* Rafael coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
 .conteudo-rafael footer {
