@@ -542,6 +542,58 @@ body {
   width: 100%;
 }
 
+/* Estilos básicos para legibilidade, tudo dentro do HTML */
+.conteudo-rafael {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.conteudo-rafael .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+.conteudo-rafael .section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.conteudo-rafael h2 {
+    color: #0779e4;
+}
+.conteudo-rafael h3 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+.conteudo-rafael pre {
+    background: #eee;
+    padding: 10px;
+    border-left: 3px solid #0779e4;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: 'Courier New', Courier, monospace;
+}
+.conteudo-rafael .image-container {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: #0779e4 3px solid;
+
+    text-align: center;
+    margin: 20px 0;
+}
+.conteudo-rafael img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
 /* Elisa coloque seu conteudo aqui utilizando .conteudo-seunome e o local a onde você quer aplicar o efeito. */
 .conteudo-elisa #rodape-de-baixo {
   background-color: #cb1064;
@@ -619,3 +671,4 @@ body {
   font-size: 14px;
   margin-top: 10px;
 }
+
