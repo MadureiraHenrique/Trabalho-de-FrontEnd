@@ -8,14 +8,132 @@
 -->
 
 <div class="conteudo-rafael">
-  <h2>Tema: Engenharia Cognitiva e de Software</h2>
-  <p>Contéudo</p>
-  <ul>
-    <li>Contéudo</li>
-    <li>Contéudo</li>
-    <li>Contéudo</li>
-  </ul>
+  <div class="image-container">
+      <h1>Engenharia Cognitiva e de Software</h1>
+      <p>Construindo Sistemas que Entendem a Mente Humana</p>
+  </div>
 
+  <div class="container">
+      
+      <div class="section">
+          <h2>Introdução</h2>
+          <p>A <strong>Engenharia Cognitiva e de Software</strong> é uma área interdisciplinar que une os princípios da ciência cognitiva com a prática da engenharia de software. O seu principal objetivo é projetar e desenvolver sistemas computacionais que sejam não apenas funcionalmente corretos, mas também intuitivos, eficientes e fáceis de usar.</p>
+          <p>Enquanto a engenharia de software tradicional foca no ciclo de vida do desenvolvimento (requisitos, projeto, implementação, teste), a engenharia cognitiva adiciona uma camada de análise centrada no usuário, considerando suas capacidades, limitações e processos mentais, como atenção, memória e resolução de problemas.</p>
+      </div>
+
+      <div class="section">
+          <h2>Modelo GOMS (Goals, Operators, Methods, and Selection Rules)</h2>
+          <p>O GOMS é um modelo de análise de tarefas que permite prever o tempo que um usuário experiente levará para realizar uma tarefa em uma interface. Ele decompõe a interação em quatro componentes:</p>
+          <ul>
+              <li><strong>Goals (Objetivos):</strong> O que o usuário quer alcançar.</li>
+              <li><strong>Operators (Operadores):</strong> Ações básicas, físicas ou mentais (ex: clicar, pressionar tecla).</li>
+              <li><strong>Methods (Métodos):</strong> Sequência de operadores para atingir um objetivo.</li>
+              <li><strong>Selection Rules (Regras de Seleção):</strong> Regras que determinam qual método usar quando há mais de uma opção.</li>
+          </ul>
+          
+          <h3>Exemplo: Copiar e Colar Texto</h3>
+          <pre>
+<strong>Objetivo:</strong> Copiar um texto de um local e colar em outro.
+
+  <strong>Método 1 (Usando o Teclado):</strong>
+      1. <strong>Operador:</strong> Mover o cursor para o início do texto.
+      2. <strong>Operador:</strong> Pressionar e segurar a tecla 'Shift'.
+      3. <strong>Operador:</strong> Mover o cursor para o final do texto para selecionar.
+      4. <strong>Operador:</strong> Liberar a tecla 'Shift'.
+      5. <strong>Operador:</strong> Pressionar a combinação de teclas 'Ctrl + C' (Copiar).
+      6. <strong>Operador:</strong> Mover o cursor para o local de destino.
+      7. <strong>Operador:</strong> Pressionar a combinação de teclas 'Ctrl + V' (Colar).
+
+  <strong>Método 2 (Usando o Mouse):</strong>
+      1. <strong>Operador:</strong> Mover o ponteiro do mouse para o início do texto.
+      2. <strong>Operador:</strong> Pressionar e segurar o botão esquerdo do mouse.
+      3. <strong>Operador:</strong> Arrastar o ponteiro até o final do texto.
+      4. <strong>Operador:</strong> Liberar o botão do mouse.
+      5. <strong>Operador:</strong> Mover o ponteiro para a área selecionada e clicar com o botão direito.
+      6. <strong>Operador:</strong> Mover o ponteiro até a opção "Copiar" e clicar.
+      7. <strong>Operador:</strong> Mover o ponteiro para o local de destino e clicar com o botão direito.
+      8. <strong>Operador:</strong> Mover o ponteiro até a opção "Colar" e clicar.
+
+<strong>Regra de Seleção:</strong>
+  SE o usuário está com as mãos no teclado, ENTÃO use o Método 1.
+  SENÃO, use o Método 2.
+          </pre>
+      </div>
+
+      <div class="section">
+          <h2>Diagramas UML (Unified Modeling Language)</h2>
+          <p>A UML é uma linguagem de modelagem padrão para visualizar, especificar, construir e documentar os artefatos de um sistema de software. Como não é possível renderizar imagens complexas em HTML puro, apresentamos abaixo representações textuais de diagramas comuns.</p>
+
+          <h3>Diagrama de Caso de Uso (Exemplo: Sistema de Blog)</h3>
+          <pre>
++--------------------------------------------------+
+| Sistema de Blog                                  |
+|                                                  |
+|  Ator: Leitor                                    |
+|    - (Ver Artigos)                               |
+|    - (Deixar Comentário)                         |
+|                                                  |
+|  Ator: Escritor (especialização de Leitor)       |
+|    - (Escrever Artigo)                           |
+|    - (Editar Artigo)                             |
+|                                                  |
+|  Ator: Administrador (especialização de Escritor)|
+|    - (Moderar Comentários)                       |
+|    - (Excluir Artigo)                            |
+|                                                  |
++--------------------------------------------------+
+          </pre>
+
+          <h3>Diagrama de Classes (Exemplo: Sistema de Blog)</h3>
+          <pre>
++-------------------------+      1..*    +------------------+
+|    Artigo               |--------------|   Comentario     |
++-------------------------+              +------------------+
+| - titulo: string        |              | - autor: string  |
+| - conteudo: texto       |              | - texto: string  |
+| - data: date            |              | - data: date     |
++-------------------------+              +------------------+
+| + publicar()            |              | + enviar()       |
+| + adicionarComentario() |              | + aprovar()      |
++-------------------------+              +------------------+
+          </pre>
+      </div>
+
+      <div class="section">
+          <h2>Mapa de Navegação</h2>
+          <p>Um mapa de navegação (ou fluxograma de site) é uma representação visual da arquitetura de um site ou aplicativo. Ele mostra como as páginas estão interligadas, ajudando a planejar uma experiência de usuário lógica e intuitiva.</p>
+
+          <h3>Exemplo: Mapa de um Site Institucional Simples</h3>
+          <ul>
+              <li><strong>Página Inicial</strong>
+                  <ul>
+                      <li><a href="#about">Sobre Nós</a>
+                          <ul>
+                              <li>Nossa História</li>
+                              <li>Nossa Equipe</li>
+                          </ul>
+                      </li>
+                      <li><a href="#services">Serviços</a>
+                          <ul>
+                              <li>Serviço A</li>
+                              <li>Serviço B</li>
+                              <li>Serviço C</li>
+                          </ul>
+                      </li>
+                      <li><a href="#portfolio">Portfólio</a></li>
+                      <li><a href="#blog">Blog</a>
+                          <ul>
+                              <li>Artigo 1</li>
+                              <li>Artigo 2</li>
+                          </ul>
+                      </li>
+                      <li><a href="#contact">Contato</a></li>
+                  </ul>
+              </li>
+          </ul>
+      </div>
+
+    </div>
   <footer>
     <h2>&copy - 2025 - Rafael</h2>
   </footer>
